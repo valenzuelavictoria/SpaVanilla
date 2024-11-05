@@ -20,3 +20,28 @@ const Home =  async () => {
 
 export default Home;
 
+
+// import getData from '../utils/getData';
+
+// const Home = async () => {
+//     const data = await getData();
+    
+//     const rocketsArray = data.rockets || []; 
+
+//     const view = `
+//         <div class="Rockets">
+//         ${rocketsArray.map(rocket => `
+//             <article class="Rocket-item">
+//                 <a href="#/${rocket.id}">
+//                     <img src="${rocket.links.patch.small}" alt="${rocket.name}">
+//                     <h2>${rocket.name}</h2>
+//                 </a>
+//             </article>
+//         `).join('')}
+//        </div>
+//     `;
+
+//     return view;
+// }
+
+// export default Home;
